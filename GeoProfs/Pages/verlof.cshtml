@@ -1,0 +1,76 @@
+﻿@page
+@model Verlof
+@{
+    ViewData["Title"] = "Verlof aanvragen";
+}
+<link href="~/css/StyleSheet.css" rel="stylesheet" type="text/css" />
+<h1>@ViewData["Title"]</h1>
+<h3>Je hebt nog x verlofuren over.</h3>
+	<div class="row input-container">
+			<div class="col-xs-12">
+				<div class="styled-input wide">
+					<input type="text" required />
+					<label>Naam</label> 
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<div class="styled-input">
+					<input type="text" required />
+					<label>Aantal uren</label> 
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<div class="styled-input" style="float:right;">
+					<input type="text" required />
+					<label>Datum</label> 
+				</div>
+			</div>
+			<div class="col-xs-12">
+				<div class="styled-input wide">
+					<textarea required></textarea>
+					<label>Reden verlof:</label>
+				</div>
+			</div>
+			<div class="col-xs-12">
+				<div class="btn-lrg submit-btn">Verstuur</div>
+			</div>
+			<div><h3>Onvoorziene afwezigheid melden</h3></div>
+				<div class="row input-container">
+			<div class="col-xs-12">
+				<div class="styled-input wide">
+					<input type="text" required />
+					<label>Naam</label> 
+				</div>
+			</div>
+			<div class="col-xs-12">
+				<div class="styled-input wide">
+					<input type="text" required />
+					<label>Datum</label> 
+				</div>
+			</div>
+			<div class="col-xs-12">
+				<div class="styled-input wide">
+					<textarea required></textarea>
+					<label>Reden:</label>
+				</div>
+			</div>
+			<div class="col-xs-12">
+				<div class="btn-lrg submit-btn">Verstuur</div>
+			</div>
+			<div><h3>Verlofaanvragen</h3></div>
+			<div class="title1">
+			<ul>
+				<li>Datum</li>
+				<li>Status</li>
+				<li>Opmerking</li>
+			</ul>
+			</div>
+			<div class="title2">
+			<ul>	
+				<li>3-6-2022</li>
+				<li>Geweigerd</li>
+				<li>Aaaaaaaaaa</li>
+			</ul>
+			</div>
+	</div>
+		<h3 class="titlee3">Verlofplanning</h3>
